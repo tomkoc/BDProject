@@ -1,0 +1,15 @@
+
+Konspekt
+
+Analiza danych pochodz¹cych z serwisu https://travel.stackexchange.com przy wykorzystaniu Apache Spark
+Wstêp -Struktura i format danych Ÿród³owych
+Krótki opis stackexchange - cel, mechanika, opis tabel Ÿród³owych
+Wykorzystywane pliki: Users, Posts, Votes, Badges, Comments
+Czeœæ pierwsza - zaprojektowanie systemu ETL umo¿liwiaj¹cego uporz¹dkowanie danych Ÿród³owych przy wykorzystaniu Apache Spark
+W rezultacie powstanie spójna struktura DataFrame'ów przygotowana do prac analitycznych.
+Czêœæ druga - demonstracja mo¿liwoœci analitycznych Apache Spark.
+Charakterystyka u¿ytkowników - analiza aktywnoœci, ranking pod wzglêdem reputacji, popularnoœæ odznak
+Charakterystyka postów - najczêœciej wystêpuj¹ce s³owa w odpowiedziach o pozytywnych i negatywnych ocenach
+Trendy w serwisie - u¿ytkownicy, posty, tagi - tendencje w czasie
+Podsumowanie
+Wnioski analityczne na podstawie analiz z czêœci drugiej
